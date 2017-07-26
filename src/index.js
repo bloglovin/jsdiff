@@ -19,6 +19,7 @@ import {diffChars} from './diff/character';
 import {diffWords, diffWordsWithSpace} from './diff/word';
 import {diffLines, diffTrimmedLines} from './diff/line';
 import {diffSentences} from './diff/sentence';
+import {diffHHTML} from './diff/html';
 
 import {diffCss} from './diff/css';
 import {diffJson, canonicalize} from './diff/json';
@@ -42,6 +43,7 @@ export {
   diffLines,
   diffTrimmedLines,
   diffSentences,
+  diffHTML,
 
   diffCss,
   diffJson,
