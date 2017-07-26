@@ -2,7 +2,7 @@ import Diff from './base';
 
 
 export const htmlDiff = new Diff();
-sentenceDiff.tokenize = function(value) {
+htmlDiff.tokenize = function(value) {
   return value.split(/<[^>]*>/);
 };
 
