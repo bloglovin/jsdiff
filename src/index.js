@@ -42,7 +42,6 @@ export {
   diffLines,
   diffTrimmedLines,
   diffSentences,
-  diffHTML,
 
   diffCss,
   diffJson,
